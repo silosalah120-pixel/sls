@@ -1,5 +1,7 @@
 import { getDb } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/leaderboard - Public leaderboard
 export async function GET() {
   const db = getDb();
