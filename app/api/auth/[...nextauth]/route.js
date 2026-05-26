@@ -56,7 +56,7 @@ export const authOptions = {
   pages: {
     signIn: '/',
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET || 'toxic-pvp-super-secret-key-2024-fivem',
 };
 
 const handler = NextAuth(authOptions);
