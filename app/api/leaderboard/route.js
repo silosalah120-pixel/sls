@@ -1,4 +1,4 @@
-import { getDb } from '../../../../lib/db';
+import { getDb } from '@/lib/db';
 
 // GET /api/leaderboard - Public leaderboard
 export async function GET() {

@@ -1,6 +1,6 @@
-import { getDb } from '../../../../lib/db';
+import { getDb } from '@/lib/db';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../auth/[...nextauth]/route';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
 
 // GET /api/tickets - fetch tickets for logged-in user (or all for admin)
 export async function GET(req) {

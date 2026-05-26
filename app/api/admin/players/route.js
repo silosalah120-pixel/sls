@@ -1,6 +1,6 @@
-import { getDb } from '../../../../lib/db';
+import { getDb } from '@/lib/db';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../auth/[...nextauth]/route';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
 
 // GET /api/admin/players - Admin: list all players
 export async function GET(req) {

@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "next-auth": "^4.24.7",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.3.2",
+    "next-auth": "^4.24.11",
+    "react": "^19",
+    "react-dom": "^19",
     "mysql2": "^3.9.7",
     "discord-interactions": "^3.4.0"
   }
